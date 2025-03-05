@@ -46,6 +46,7 @@ ul,ol {
   padding: 20px 30px;
   background: tomato;
   color: #fff;
+  border: 2px solid tomato;
   border-radius: 30px;
   font-size: 17px;
   font-weight: 700;
@@ -53,5 +54,5 @@ ul,ol {
   transition: 0.4s;
 }
 .icon a:hover{
-  background: blueviolet;
+  background: transparent;
 }
