@@ -40,7 +40,7 @@ ul,ol {
 }
 .icon i {
   color: #fff;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 .icon a {
   padding: 20px 30px;
@@ -55,4 +55,6 @@ ul,ol {
 }
 .icon a:hover{
   background: transparent;
+  color: tomato;
 }
+
