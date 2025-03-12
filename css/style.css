@@ -13,10 +13,19 @@ ul,ol {
   width: 1320px;
   margin: 0 auto;
 }
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
 
 #headerPart {
   padding: 30px 0;
-  background:#000000;
+  /* background:#000000; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 .headerContent {
   display: flex;
@@ -57,4 +66,53 @@ ul,ol {
   background: transparent;
   color: tomato;
 }
-
+#bannerPart{
+  background: url(../images/slider-2-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bannerOverly{
+  background: rgba(0, 0, 0, 0.591);
+  padding-top: 270px;
+  padding-bottom: 230px;
+}
+.bannerText h1{
+  font-size: 65px;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  width: 620px;
+  line-height: 78px;
+}
+.bannerText span{
+  color: #ffa415;
+  border-bottom: 3px solid #ffa415;
+}
+.bannerText a{
+  padding: 20px 30px;
+  background: #ffa415;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 20px;
+  border: 1px solid #ffa415;
+  transition: .4s;
+}
+.bannerText a:hover{
+  background: transparent;
+  border: 1px solid #ffa415;
+}
+#donationPart{
+  padding-bottom: 120px;
+}
+.donationFlex{
+  display: flex;
+}
+.donationItem{
+  width: 30%;
+  background: red;
+  height: 300px;
+}
